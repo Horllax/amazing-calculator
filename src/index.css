@@ -11,13 +11,13 @@
     font-family:'Fira Sans', sans-serif;
 }
 body {
-    background-color: var(--light);
+    background-color: #eee;
 }
 .App {
     display: flex;
     min-height: 100vh;
-    justify-content: center;
-    align-items: center;
+     justify-content: center; 
+     align-items: center; 
     padding: 16px;
 }
 .calculator {
@@ -31,20 +31,20 @@ body {
 .display{
     padding: 16px;
     text-align: right;
-    background-color: #131a26;
-    color: #eee;
+    background-color: #696767;
+    color: #131a26;
     font-size: 24px;
     font-weight: 300;
 }
 .display span{
     font-size: 14px;
-    color: #888;
+    color: black;
 }
 button {
     appearance: none;
     border: none;
     outline: none;
-    color: #fff;
+    color: #eee;
     font-size: 20px;
     padding: 16px;
     cursor: pointer;
@@ -57,8 +57,8 @@ button:hover {
     display: flex;
 }
 .operator button {
-    flex: 1 1 0%;
-    background-color: #d81e5b;
+    flex: 1 1 0% ;
+    background-color: dodgerblue;
     font-weight: 700;
 }
 .digits{
@@ -68,5 +68,5 @@ button:hover {
 .digits button {
     flex: 1 1 33.333%;
     max-width: 33.333%;
-    background-color: #131a26;
+    background-color: #696767;
 }
